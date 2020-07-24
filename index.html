@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DescuentosRD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+    <header class="header" id="header" name="header">
+        <div class="divHeader" id="divHeader" name="divHeader">
+            <h2 class="icon-calc">DescuentosRD</h2>
+            <input type="checkbox" id="checkbox" name="checbox">
+            <label for="checkbox" class="icon-menu"></label>
+        </div>
+    </header>
+    
+    <main class="main" id="main" name="main">
+        <div class="divForm" id="divForm" name="divForm">
+            <form class="formDescuentos">
+                <br>
+                <h1 class="icon-calc">Calcula tus descuentos</h1>
+                <br>
+                <label for="numberSalario" title="El salario debe ser mayor a 0" id="labelForSalario">Introduzca su salario:</label>
+                <input type="number" id="numberSalario" name="numberSalario" placeholder="Ej: $20,000">
+                
+                <label for="radioDescuentoAdicionalNo">Desea incluir un descuento adicional?</label>
+                <br>
+                <input type="radio" class="radioDescuentoAdicional" id="radioDescuentoAdicionalSi" name="radioDescuentoAdicional">
+                <label for="radioDescuentoAdicionalSi">Si</label>
+                <br>
+                <input type="radio" class="radioDescuentoAdicional" id="radioDescuentoAdicionalNo" name="radioDescuentoAdicional" checked>
+                <label for="radioDescuentoAdicionalNo">No</label>
+                <br>
+                <label for="numberDescuentoAdicional" title="El descuento no puede ser negativo ni mayor al salario" id="labelForDescuentoAdicional">Descuento adicional:</label>
+                <input type="number" id="numberDescuentoAdicional" name="numberDescuentoAdicional" placeholder="Ej: $2,000">
+                
+                <button class="btnCalcular" id="btnCalcular" name="btnCalcular">Calcular</button>
+            </form>
+        </div>
+        <div class="container" id="divTable" name="divTable">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Desglose</th>
+                        <th>Mensual</th>
+                        <th>Anual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ingresos brutos</td>
+                        <td>$$</td>
+                        <td>$$</td>
+                    </tr>
+                    <tr>
+                        <td>Descuentos AFP</td>
+                        <td>$$</td>
+                        <td>$$</td>
+                    </tr>
+                    <tr>
+                        <td>Descuentos ARS</td>
+                        <td>$$</td>
+                        <td>$$</td>
+                    </tr>
+                    <tr>
+                        <td>Descuentos ISR</td>
+                        <td>$$</td>
+                        <td>$$</td>
+                    </tr>
+                    <tr>
+                        <td>Descuentos adicionales</td>
+                        <td>$$</td>
+                        <td>$$</td>
+                    </tr>
+                    <tr>
+                        <td>Total descuentos</td>
+                        <td>$$</td>
+                        <td>$$</td>
+                    </tr>
+                    <tr>
+                        <td>Ingresos netos</td>
+                        <td>$$</td>
+                        <td>$$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="divFooter">
+            <h6>Created By Jorge</h6>
+        </div>
+    </footer>
+</body>
+</html>
