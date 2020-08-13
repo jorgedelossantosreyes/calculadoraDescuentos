@@ -94,3 +94,14 @@ main .icon-calc, main .icon-table{
         width: 100%;
     }
 }
+@media screen and (max-width:600px){
+    main form{
+        width: 90%;
+    }
+    main #table{
+        width: 90%;
+    }
+    .icon-table{
+        width: 90%;
+    }
+}
