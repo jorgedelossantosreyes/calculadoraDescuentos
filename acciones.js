@@ -305,7 +305,7 @@ document.getElementById("btnCalcular").onclick = function () {
     InsertarDatoEnTabla("ingresosNetosMensualTD", "ingresosNetosAnualTD", FormatearNumeroConComas(ingresosNetosMensual), FormatearNumeroConComas(ingresosNetosAnual));
     
     // element which needs to be scrolled to
-    var element = document.querySelector(".icon-table");
+    var element = document.querySelector("#numberDescuentoAdicional");
 
     // scroll to element
     element.scrollIntoView({behavior:"smooth", block:"start"});
