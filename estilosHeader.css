@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+.contLogo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:;
+}
+h1 span{
+    color: #1e4fa4;
+    color: darkcyan;
+    font-weight: 900;
+}
+.contLogo h1{
+    font-weight: 100;
+    font-size: 35px;
+    box-shadow: 4px 4px 9px gainsboro;
+    border-radius: 20px 20px 20px 20px;
+    padding-right: 3px;
+}
+
+
+
+.innerHeader{
+    width: 100%;
+    background-color: darkcyan;
+    height: 40px;
+    position: absolute;
+    border-bottom: 3px solid darkcyan;
+    box-shadow: 0px 2px 5px;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 10px;
+}
+.lista li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.lista li a:hover{
+    text-shadow: 0px 0px 15px white;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+    .lista a span{
+        display: none;
+    }
+    .contLogo{
+        justify-content: center;
+    }
+}

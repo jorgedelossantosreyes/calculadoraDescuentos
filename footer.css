@@ -1,0 +1,75 @@
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: gainsboro;
+    position: absolute;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+footer div h3{
+    color: darkcyan;
+    font-weight: 100;
+    font-size: 20px;   
+}
+footer div h4{
+    color: black;
+    font-weight: 100;
+}
+footer .logo{
+    background-color: gainsboro;
+    /*border: 3px solid darkblue;
+    border-radius: 100px;*/
+    padding: 0px 10px;
+    width: 250px;
+}
+footer .logo span{
+    font-weight: 900;
+    color: darkcyan;
+}
+footer .div2 h1{
+    font-weight: 100;
+    font-size: 35px;
+    box-shadow: 4px 4px 9px white;
+    border-radius: 20px 20px 20px 20px;
+    width: 270px;
+    margin: auto;
+    margin-top: 20px;
+}
+footer .div1 a{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width:800px){
+    footer .div2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px){
+    footer div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:400px){
+    footer{
+        display: block;
+        height: 300px;
+    }
+    footer div{
+        display: block;
+    }
+}
