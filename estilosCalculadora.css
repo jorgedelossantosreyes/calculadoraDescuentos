@@ -79,3 +79,23 @@ main .icon-calc, main .icon-table{
 .trPar{
     background-color: ghostwhite;
 }
+
+
+
+
+@media screen and (max-width:900px){
+    header{
+        position: absolute;
+        top: 0px;
+    }
+    main{
+        display: block;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:900px){
+    main{
+        width: 100%;
+    }
+}
