@@ -138,6 +138,9 @@ thead{
     .contIMG{
         grid-area: contIMG;
     }
+    .contenedor h1{
+        margin-top: 0px;
+    }
     main .contDiv3{
         grid-area: contDiv3;
         grid-gap: 0px;
